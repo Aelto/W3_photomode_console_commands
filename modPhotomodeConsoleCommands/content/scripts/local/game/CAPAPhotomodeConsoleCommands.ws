@@ -1,10 +1,10 @@
 
 exec function addfog(optional quantity : int, optional distance : float) {
-	thePlayer.GetInputHandler().Photomode.spawnfogmist(0, quantity, distance);
+	thePlayer.GetInputHandler().Photomode.spawnfogmist(1, quantity, distance);
 }
 
 exec function addmist(optional quantity : int, optional distance : float) {
-	thePlayer.GetInputHandler().Photomode.spawnfogmist(1, quantity, distance);
+	thePlayer.GetInputHandler().Photomode.spawnfogmist(0, quantity, distance);
 }
 
 exec function removefogmist() {
